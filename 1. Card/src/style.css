@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom csss for card */
+.card{
+    background-image: url('../src/assets/images/bg.png');
+
+}
