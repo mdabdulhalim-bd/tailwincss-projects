@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.responsive{
+    @apply flex md:flex-row flex-col items-center gap-6 w-full
+}
+.img{
+    @apply inline-block border-2 border-red-500 rounded-md p-3
+}
+.card{
+    @apply border-2 border-green-400 rounded-md p-3
+}
